@@ -1,0 +1,21 @@
+{
+  "template": {
+    "directory": "templates",
+    "dataPath": "data/templates",
+    "baseUrl": "http://localhost:9000",
+    "queryBuildPaths": true
+  },
+  "persistence": {
+    "type": "file",
+    "file": {
+      "path": "data/persistence.ser"
+    }
+  },
+  "database": {
+    "type": "mysql",
+    "host": "localhost",
+    "database": "demo",
+    "username": "root",
+    "password": "password"
+  }
+}

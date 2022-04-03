@@ -1,0 +1,7 @@
+{
+  "require": {
+    "twig/twig": "^2.0",
+    "symfony/console": "^6.0",
+    "catfan/medoo": "^2.1"
+  }
+}

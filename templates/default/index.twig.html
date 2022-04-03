@@ -1,0 +1,5 @@
+{% if response_body is defined %}
+    {{ response_body|json_encode() }}
+{% else %}
+    {{ []|json_encode() }}
+{% endif %}
